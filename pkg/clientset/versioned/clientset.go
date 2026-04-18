@@ -6,8 +6,8 @@ import (
 	fmt "fmt"
 	http "net/http"
 
-	clusterv1 "github.com/skevetter/agentapi/pkg/clientset/versioned/typed/cluster/v1"
-	storagev1 "github.com/skevetter/agentapi/pkg/clientset/versioned/typed/storage/v1"
+	clusterv1 "github.com/devsy-org/agentapi/pkg/clientset/versioned/typed/cluster/v1"
+	storagev1 "github.com/devsy-org/agentapi/pkg/clientset/versioned/typed/storage/v1"
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"

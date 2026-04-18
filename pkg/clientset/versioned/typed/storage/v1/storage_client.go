@@ -5,8 +5,8 @@ package v1
 import (
 	http "net/http"
 
-	storagev1 "github.com/skevetter/agentapi/pkg/apis/devsy/storage/v1"
-	scheme "github.com/skevetter/agentapi/pkg/clientset/versioned/scheme"
+	storagev1 "github.com/devsy-org/agentapi/pkg/apis/devsy/storage/v1"
+	scheme "github.com/devsy-org/agentapi/pkg/clientset/versioned/scheme"
 	rest "k8s.io/client-go/rest"
 )
 

@@ -6,9 +6,9 @@
 package openapi
 
 import (
-	licenseapi "github.com/skevetter/admin-apis/pkg/licenseapi"
-	v1 "github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1"
-	storagev1 "github.com/skevetter/agentapi/pkg/apis/devsy/storage/v1"
+	licenseapi "github.com/devsy-org/admin-apis/pkg/licenseapi"
+	v1 "github.com/devsy-org/agentapi/pkg/apis/devsy/cluster/v1"
+	storagev1 "github.com/devsy-org/agentapi/pkg/apis/devsy/storage/v1"
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	common "k8s.io/kube-openapi/pkg/common"

@@ -1,12 +1,12 @@
-module github.com/skevetter/agentapi
+module github.com/devsy-org/agentapi
 
 go 1.25.0
 
 require (
-	github.com/skevetter/admin-apis v1.0.0
-	github.com/skevetter/apiserver v1.0.1
-	k8s.io/api v0.35.0
-	k8s.io/apimachinery v0.35.0
+	github.com/devsy-org/admin-apis v1.1.0
+	github.com/devsy-org/apiserver v1.1.0
+	k8s.io/api v0.35.3
+	k8s.io/apimachinery v0.35.3
 	k8s.io/apiserver v0.35.0
 	k8s.io/client-go v0.35.0
 	k8s.io/kube-openapi v0.0.0-20260330154417-16be699c7b31
