@@ -3,8 +3,8 @@ module github.com/devsy-org/agentapi
 go 1.25.0
 
 require (
-	github.com/devsy-org/admin-apis v1.2.0
-	github.com/devsy-org/apiserver v1.2.0
+	github.com/devsy-org/admin-apis v1.0.0
+	github.com/devsy-org/apiserver v1.0.0
 	k8s.io/api v0.35.3
 	k8s.io/apimachinery v0.35.3
 	k8s.io/apiserver v0.35.0
