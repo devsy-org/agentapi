@@ -3,8 +3,8 @@
 package storage
 
 import (
-	internalinterfaces "github.com/skevetter/agentapi/pkg/informers/externalversions/internalinterfaces"
-	v1 "github.com/skevetter/agentapi/pkg/informers/externalversions/storage/v1"
+	internalinterfaces "github.com/devsy-org/agentapi/pkg/informers/externalversions/internalinterfaces"
+	v1 "github.com/devsy-org/agentapi/pkg/informers/externalversions/storage/v1"
 )
 
 // Interface provides access to each of this group's versions.

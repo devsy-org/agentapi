@@ -8,10 +8,10 @@ tasks:
       - |
         openapi-gen \
           --output-dir pkg/openapi \
-          --output-pkg github.com/skevetter/agentapi/pkg/openapi \
+          --output-pkg github.com/devsy-org/agentapi/pkg/openapi \
           --output-file zz_generated.openapi.go \
-          github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1 \
-          github.com/skevetter/agentapi/pkg/apis/devsy/storage/v1 \
-          github.com/skevetter/admin-apis/pkg/licenseapi \
+          github.com/devsy-org/agentapi/pkg/apis/devsy/cluster/v1 \
+          github.com/devsy-org/agentapi/pkg/apis/devsy/storage/v1 \
+          github.com/devsy-org/admin-apis/pkg/licenseapi \
           k8s.io/apimachinery/pkg/apis/meta/v1 \
           k8s.io/api/core/v1

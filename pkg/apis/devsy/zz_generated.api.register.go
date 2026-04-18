@@ -3,10 +3,10 @@
 package devsy
 
 import (
-	"github.com/skevetter/agentapi/pkg/apis/devsy/cluster"
-	_ "github.com/skevetter/agentapi/pkg/apis/devsy/cluster/install" // Install the cluster group
-	clusterv1 "github.com/skevetter/agentapi/pkg/apis/devsy/cluster/v1"
-	"github.com/skevetter/apiserver/pkg/builders"
+	"github.com/devsy-org/agentapi/pkg/apis/devsy/cluster"
+	_ "github.com/devsy-org/agentapi/pkg/apis/devsy/cluster/install" // Install the cluster group
+	clusterv1 "github.com/devsy-org/agentapi/pkg/apis/devsy/cluster/v1"
+	"github.com/devsy-org/apiserver/pkg/builders"
 	"k8s.io/apimachinery/pkg/runtime"
 )
 
@@ -28,7 +28,7 @@ func GetAllApiBuilders() []*builders.APIGroupBuilder {
 func GetClusterAPIBuilder() *builders.APIGroupBuilder {
 	return builders.NewApiGroupBuilder(
 		"cluster.devsy.sh",
-		"github.com/skevetter/agentapi/pkg/apis/devsy/cluster").
+		"github.com/devsy-org/agentapi/pkg/apis/devsy/cluster").
 		WithUnVersionedApi(cluster.ApiVersion).
 		WithVersionedApis(
 			clusterv1.ApiVersion,
