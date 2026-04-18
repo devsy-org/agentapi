@@ -5,10 +5,10 @@ go 1.25.0
 require (
 	github.com/skevetter/admin-apis v1.0.0
 	github.com/skevetter/apiserver v1.0.1
-	k8s.io/api v0.35.0
-	k8s.io/apimachinery v0.35.0
+	k8s.io/api v0.35.3
+	k8s.io/apimachinery v0.35.3
 	k8s.io/apiserver v0.35.0
-	k8s.io/client-go v0.35.0
+	k8s.io/client-go v0.35.3
 	k8s.io/kube-openapi v0.0.0-20260330154417-16be699c7b31
 	sigs.k8s.io/controller-runtime v0.22.4
 )
@@ -103,7 +103,7 @@ require (
 	gopkg.in/evanphx/json-patch.v4 v4.13.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	k8s.io/apiextensions-apiserver v0.35.0 // indirect
-	k8s.io/component-base v0.35.0 // indirect
+	k8s.io/component-base v0.35.3 // indirect
 	k8s.io/klog/v2 v2.130.1 // indirect
 	k8s.io/utils v0.0.0-20251002143259-bc988d571ff4 // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.31.2 // indirect
@@ -112,3 +112,7 @@ require (
 	sigs.k8s.io/structured-merge-diff/v6 v6.3.0 // indirect
 	sigs.k8s.io/yaml v1.6.0 // indirect
 )
+
+replace github.com/skevetter/admin-apis => github.com/devsy-org/admin-apis v1.1.0
+
+replace github.com/skevetter/apiserver => github.com/devsy-org/apiserver v1.1.0
