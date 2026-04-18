@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.0](https://github.com/devsy-org/agentapi/compare/v2.0.0...v2.1.0) (2026-04-18)
+
+
+### Features
+
+* rename module to devsy-org/agentapi ([#4](https://github.com/devsy-org/agentapi/issues/4)) ([933dee6](https://github.com/devsy-org/agentapi/commit/933dee6a2fc9b9e728a5178109a90035be102a6b))
+
 ## [2.0.0](https://github.com/devsy-org/agentapi/compare/v1.0.0...v2.0.0) (2026-04-18)
 
 
