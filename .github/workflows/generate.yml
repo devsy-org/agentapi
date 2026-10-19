@@ -14,14 +14,14 @@ jobs:
     name: OpenAPI Up-to-date
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
 
       - uses: actions/setup-go@v6
         with:
           go-version-file: go.mod
 
       - name: Install openapi-gen
-        run: go install k8s.io/kube-openapi/cmd/openapi-gen@latest
+        run: go install "k8s.io/kube-openapi/cmd/openapi-gen@$(go list -m k8s.io/kube-openapi | cut -d' ' -f2)"
 
       - name: Generate OpenAPI
         run: |
