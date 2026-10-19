@@ -4,7 +4,7 @@ tasks:
   generate:openapi:
     desc: Generate OpenAPI definitions from Go types
     cmds:
-      - go install k8s.io/kube-openapi/cmd/openapi-gen@latest
+      - go install "k8s.io/kube-openapi/cmd/openapi-gen@$(go list -m k8s.io/kube-openapi | cut -d' ' -f2)"
       - |
         openapi-gen \
           --output-dir pkg/openapi \

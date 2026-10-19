@@ -21,7 +21,7 @@ jobs:
           go-version-file: go.mod
 
       - name: Install openapi-gen
-        run: go install k8s.io/kube-openapi/cmd/openapi-gen@latest
+        run: go install "k8s.io/kube-openapi/cmd/openapi-gen@$(go list -m k8s.io/kube-openapi | cut -d' ' -f2)"
 
       - name: Generate OpenAPI
         run: |
